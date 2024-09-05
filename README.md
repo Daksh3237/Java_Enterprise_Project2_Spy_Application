@@ -73,13 +73,14 @@ By default, the following missions are pre-populated:
 
 ## SQL Table Creation
 ```bash
-CREATE TABLE mission (
-  id LONG PRIMARY KEY AUTO_INCREMENT,
-  agent VARCHAR(50),
-  title VARCHAR(50),
-  gadget1 VARCHAR(50),
-  gadget2 VARCHAR(50)
-);
+   CREATE TABLE mission (
+     id LONG PRIMARY KEY AUTO_INCREMENT,
+     agent VARCHAR(50),
+     title VARCHAR(50),
+     gadget1 VARCHAR(50),
+     gadget2 VARCHAR(50)
+   );
 
-## License
-- This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+
